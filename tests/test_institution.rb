@@ -12,7 +12,7 @@ module Nordigen
       client = NordigenClient.new(secret_id: ENV['SECRET_ID'], secret_key: ENV['SECRET_KEY'])
       client.generate_token
       @institution = InstitutionsApi.new(client)
-      @institution_id = 'REVOLUT_REVOGB21'
+      @institution_id = 'REVOLUT_REVOLT21'
     end
 
     def test_get_institutions
